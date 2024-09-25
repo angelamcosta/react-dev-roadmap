@@ -24,8 +24,10 @@ export default function TodoList() {
 
     function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
-        setList([...list, { id: list.length, name: item, check: false }]);
-        setItem("");
+        if (item != "") {
+            setList([...list, { id: list.length, name: item, check: false }]);
+            setItem("");
+        }
     }
 
     return (
