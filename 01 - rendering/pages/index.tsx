@@ -5,12 +5,7 @@ export default function Index() {
         <>
             <h1>Rendering</h1>
             <small>
-<<<<<<< Updated upstream
-                This are exercises for the <b>Rendering</b> section of
-=======
-                These are exercises for the <b>Rendering</b> section of
->>>>>>> Stashed changes
-                roadmap.sh for learning React.
+                These are exercises for the <b>Rendering</b> section of roadmap.sh for learning React.
             </small>
             <ul>
                 <ListItem
