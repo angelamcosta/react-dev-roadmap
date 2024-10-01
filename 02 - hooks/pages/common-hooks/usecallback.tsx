@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 import { Todo } from "@/components/TodoList";
+=======
+import { Todo } from "@/components/TodoListCallback";
+>>>>>>> Stashed changes
 import { hoc } from "@/components/Template";
 
 const Template = hoc(Todo);

@@ -11,6 +11,10 @@ export default function Index() {
         { link: `${BASIC}/useeffect`, topic: "useEffect" },
         { link: `${COMMON}/useref`, topic: "useRef" },
         { link: `${COMMON}/usecallback`, topic: "useCallback" },
+<<<<<<< Updated upstream
+=======
+        { link: `${COMMON}/usememo`, topic: "useMemo" },
+>>>>>>> Stashed changes
     ];
     return (
         <Template
