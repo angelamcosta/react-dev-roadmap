@@ -10,6 +10,7 @@ export default function Index() {
         { link: `${BASIC}/usestate`, topic: "useState" },
         { link: `${BASIC}/useeffect`, topic: "useEffect" },
         { link: `${COMMON}/useref`, topic: "useRef" },
+        { link: `${COMMON}/usecallback`, topic: "useCallback" },
     ];
     return (
         <Template
