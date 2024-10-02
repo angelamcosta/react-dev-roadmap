@@ -26,3 +26,4 @@ By the end of this journey, I aim to:
 ### 📚 Bibliography
 
 -   [Higher-Order Components (HOCs) no React e React Native](https://blog.rocketseat.com.br/higher-order-components-hocs-no-react-e-react-native/)
+-   [W3 Schools React Tutorials](https://www.w3schools.com/react/)
