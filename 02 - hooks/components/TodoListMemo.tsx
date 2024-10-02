@@ -20,7 +20,7 @@ export function Todo() {
 
     const removeItem = useCallback((index: number) => {
         setList(list.filter((_, i) => i !== index));
-    }, []);
+    }, [list]);
 
     const handleSubmit = useCallback(
         (e: React.FormEvent<HTMLFormElement>) => {
