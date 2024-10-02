@@ -16,7 +16,6 @@ export function hoc<T extends object>(HocComponent: React.ComponentType<T>) {
                 <h1>{title}</h1>
                 <small>{subtitle}</small>
                 <h3>Topic(s): {topics}</h3>
-                <br />
                 <HocComponent {...(restProps as T)} />
                 <br />
                 {!goBack && <Link href={"/"}>Go back</Link>}

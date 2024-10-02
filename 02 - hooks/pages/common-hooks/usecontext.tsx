@@ -1,7 +1,7 @@
 import { Button } from "@/components/Button";
 import { Input } from "@/components/Input";
 import React, { useState, createContext, useContext } from "react";
-import { hoc } from '@/components/Template';
+import { hoc } from "@/components/Template";
 
 const Template = hoc(Component1);
 
@@ -26,7 +26,7 @@ function Component1() {
                     type='text'
                     value={item}
                     onChange={(e) => setItem(e.currentTarget.value)}
-                /> {" "}
+                />{" "}
                 <Button type='submit' name='add name' />
             </form>
             <UserContext.Provider value={user}>
@@ -85,7 +85,18 @@ export default function UseContext() {
                     "These are exercises for the Hooks section of roadmap.sh for learning React."
                 }
             />
-            <p>Reference for this example of useContext from <a href='https://www.w3schools.com/react/react_usecontext.asp'>W3Schools</a>.</p>
+            <p>
+                Reference for this example of useContext from{" "}
+                <a href='https://www.w3schools.com/react/react_usecontext.asp'>
+                    W3Schools
+                </a>
+                .
+            </p>
+            <small>
+                React Context is a way to manage state globally.<br/>It can be used
+                together with the <b>useState</b> Hook to share state between deeply
+                nested components more easily than with <b>useState</b> alone.
+            </small>
         </>
     );
 }

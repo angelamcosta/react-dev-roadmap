@@ -24,6 +24,13 @@ export default function UseRef() {
                     "These are exercises for the Hooks section of roadmap.sh for learning React."
                 }
             />
+            <small>
+                React <b>useRef</b> Hook does not cause re-renders.<br/>If we tried
+                to count how many times our application renders using the{" "}
+                <b>useState</b> Hook, we would be caught in an infinite loop since this Hook
+                itself causes a re-render.<br/>To avoid this, we can use the{" "}
+                <b>useRef</b> Hook.
+            </small>
         </>
     );
 }

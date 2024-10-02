@@ -1,6 +1,6 @@
 import { hoc } from "@/components/Template";
 import { Input } from "@/components/Input";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const Template = hoc(Input);
 
