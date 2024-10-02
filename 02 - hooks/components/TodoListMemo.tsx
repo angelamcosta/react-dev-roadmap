@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import { Input } from "./Input";
 import { Button } from "./Button";
 
@@ -12,15 +12,21 @@ export function Todo() {
     const [list, setList] = useState<TodoProps[]>([]);
     const [item, setItem] = useState<string>("");
 
-    const toggleCheckbox = useCallback((index: number) => {
-        const newList = [...list];
-        newList[index].checked = !list[index].checked;
-        setList(newList);
-    }, [list]);
+    const toggleCheckbox = useCallback(
+        (index: number) => {
+            const newList = [...list];
+            newList[index].checked = !list[index].checked;
+            setList(newList);
+        },
+        [list]
+    );
 
-    const removeItem = useCallback((index: number) => {
-        setList(list.filter((_, i) => i !== index));
-    }, [list]);
+    const removeItem = useCallback(
+        (index: number) => {
+            setList(list.filter((_, i) => i !== index));
+        },
+        [list]
+    );
 
     const handleSubmit = useCallback(
         (e: React.FormEvent<HTMLFormElement>) => {

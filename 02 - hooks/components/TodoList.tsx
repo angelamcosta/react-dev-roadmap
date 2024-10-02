@@ -1,7 +1,6 @@
-import { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { Input } from "./Input";
 import { Button } from "./Button";
-import { useCallback } from "react";
 
 interface TodoProps {
     id: number;

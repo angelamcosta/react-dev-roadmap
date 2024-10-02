@@ -1,5 +1,5 @@
+import React, { useRef } from "react";
 import { hoc } from "@/components/Template";
-import { useRef } from "react";
 import { Button } from "@/components/Button";
 
 const Template = hoc(Button);

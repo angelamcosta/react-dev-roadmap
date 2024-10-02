@@ -13,6 +13,7 @@ export default function Index() {
         { link: `${COMMON}/usecallback`, topic: "useCallback" },
         { link: `${COMMON}/usememo`, topic: "useMemo" },
         { link: `${COMMON}/usereducer`, topic: "useReducer" },
+        { link: `${COMMON}/usecontext`, topic: "useContext" },
     ];
     return (
         <Template

@@ -1,4 +1,4 @@
-import { useState, useCallback, useReducer, useMemo } from "react";
+import React, { useState, useCallback, useReducer, useMemo } from "react";
 import { Input } from "./Input";
 import { Button } from "./Button";
 
@@ -41,9 +41,12 @@ export function Todo() {
         dispatch({ type: "TOGGLE_TODO", payload: index });
     }, []);
 
-    const removeItem = useCallback((index: number) => {
-        dispatch({ type: "REMOVE_TODO", payload: index });
-    }, [list]);
+    const removeItem = useCallback(
+        (index: number) => {
+            dispatch({ type: "REMOVE_TODO", payload: index });
+        },
+        [list]
+    );
 
     const handleSubmit = useCallback(
         (e: React.FormEvent<HTMLFormElement>) => {
