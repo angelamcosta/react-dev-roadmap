@@ -8,9 +8,15 @@ Hooks were introduced in React 16.8 and they let us use React’s features-like 
 
 ## Topics Covered
 
--   Basic Hooks
+-   Basic Hooks [x]
     - useState
     - useEffect
+-   Common Hooks [x]
+    - useCallback
+    - useContext
+    - useMemo
+    - useReducer
+    - useRef
 
 ## Getting Started
 

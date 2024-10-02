@@ -12,7 +12,7 @@ Welcome to my React Mastery Journey repository! This project follows the React D
 
 -   [x] [Functional Components](00%20-%20functional-components/README.md)
 -   [x] [Rendering](01%20-%20rendering/README.md)
--   [ ] [Hooks](02%20-%20hooks/README.md)
+-   [x] [Hooks](02%20-%20hooks/README.md)
 
 
 ## 🎯 Goals
