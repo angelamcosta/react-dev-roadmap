@@ -17,7 +17,7 @@ Hooks were introduced in React 16.8 and they let us use React’s features-like 
     -   useMemo
     -   useReducer
     -   useRef
--   Creating Custom Hooks [ ]
+-   Creating Custom Hooks [x]
 -   [Hooks Best Practices](https://react.dev/reference/rules/rules-of-hooks) [x]
 
 ## Getting Started
