@@ -14,6 +14,7 @@ export default function Index() {
         { link: `${COMMON}/usememo`, topic: "useMemo" },
         { link: `${COMMON}/usereducer`, topic: "useReducer" },
         { link: `${COMMON}/usecontext`, topic: "useContext" },
+        { link: `project/`, topic: "testing topics studied in this section" },
     ];
     return (
         <Template
